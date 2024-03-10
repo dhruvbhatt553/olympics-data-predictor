@@ -12,7 +12,7 @@ region_df = pd.read_csv('noc_regions.csv')
 df = preprocessor.preprocess(df,region_df)
 
 st.sidebar.title("Olympics Analysis")
-st.sidebar.image('https://e7.pngegg.com/pngimages/1020/402/png-clipart-2024-summer-olympics-brand-circle-area-olympic-rings-olympics-logo-text-sport.png')
+st.sidebar.image('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnB2a2MxdW40ODNhNnJ5M21qY2J3Z216b2RkemltZWhucnM5bHF1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vJfEYfBIvcNN7BUZVn/giphy-downsized-large.gif')
 user_menu = st.sidebar.radio(
     'Select an Option',
     ('Medal Tally','Overall Analysis','Country-wise Analysis')
